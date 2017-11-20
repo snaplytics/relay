@@ -1,5 +1,6 @@
 {
-  "name": "react-relay",
+  "name": "@snaplytics/react-relay",
+  "private": true,
   "description": "A framework for building data-driven React applications.",
   "version": "0.10.0",
   "keywords": [

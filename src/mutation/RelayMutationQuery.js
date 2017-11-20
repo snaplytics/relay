@@ -233,7 +233,9 @@ const RelayMutationQuery = {
     const trackedConnections = [];
     trackedChildren.forEach(trackedChild => {
       trackedConnections.push(
-        ...findDescendantFields(trackedChild, connectionName)
+        ...findDescendantFields(trackedChild, connectionName).filter(maybeConnection =>
+          maybeConnection.isConnection()
+        )
       );
     });
 
