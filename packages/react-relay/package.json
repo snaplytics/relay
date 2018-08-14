@@ -1,5 +1,5 @@
 {
-  "name": "react-relay",
+  "name": "@snaplytics/react-relay",
   "description": "A framework for building GraphQL-driven React applications.",
   "version": "1.6.2",
   "keywords": [
